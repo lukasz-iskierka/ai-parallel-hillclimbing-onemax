@@ -2,11 +2,11 @@
 
 ### Project Description
 
-This project implements a population-based variant of the Hill Climbing algorithm to solve the OneMax optimization problem. It includes comprehensive performance analysis and visualization of the algorithm's behavior across different problem sizes and population parameters.
+This project implements a population-based variant of the Hill Climbing algorithm to solve the OneMax optimisation problem. It includes comprehensive performance analysis and visualisation of the algorithm's behavior across different problem sizes and population parameters.
 
 ### Problem Statement & Objectives
 
-The OneMax problem is a benchmark in optimization, requiring an algorithm to find a bitstring containing only ones (e.g., "111111"). While simple in concept, it provides valuable insights into algorithm performance and scalability.
+The OneMax problem is a benchmark in optimisation, requiring an algorithm to find a bitstring containing only ones (e.g., "111111"). While simple in concept, it provides valuable insights into algorithm performance and scalability.
 
 ### Objectives:
 
@@ -65,10 +65,10 @@ avg_fitness_scores, avg_convergence = test_parallel_hill_climber(
 
 ### Technologies Used
 
-Python 3.x
-NumPy (numerical operations)
-Seaborn & Matplotlib (visualization)
-Random (stochastic operations)
+* Python 3.x
+* NumPy (numerical operations)
+* Seaborn & Matplotlib (visualisation)
+* Random (stochastic operations)
 
 ### Future Improvements
 
@@ -83,8 +83,8 @@ Random (stochastic operations)
 * Genetic algorithms
 * Simulated annealing
 
-3. Optimize performance for larger problem sizes
-4. Add parallelization for performance testing
+3. Optimise performance for larger problem sizes
+4. Add parallelisation for performance testing
 5. Implement more sophisticated/alternative mutation operators
 
 ### Contributing
