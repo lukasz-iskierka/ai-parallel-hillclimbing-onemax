@@ -27,10 +27,10 @@ The algorithm's implementation uses:
 
 ### Results & Key Findings
 
-* Optimal performance for small problem sizes (10-30 bits)
-* Performance degradation observed beyond 30-bit strings
+* Optimal performance for small problem sizes (10-40 bits)
+* Gradual performance degradation observed beyond 40-bit strings
 * Limited impact of population size on solution quality
-* Average fitness score of ~80% for 100-bit problems
+* Average fitness score of ~90% for 100-bit problems
 * Increasing convergence time for larger problem sizes
 
 ### Installation
@@ -59,6 +59,7 @@ solution, fitness, generation = parallel_hill_climbing(
 # Run performance tests
 avg_fitness_scores, avg_convergence = test_parallel_hill_climber(
     population_size=10,
+    generations=100,
     runs=10
 )
 ```
@@ -75,8 +76,7 @@ avg_fitness_scores, avg_convergence = test_parallel_hill_climber(
 1. Implement adaptive mutation rates based on:
 
 * Population diversity
-* Generation number
-* Fitness progression
+* Adaptive mutation
 
 2. Explore hybrid approaches combining hill climbing with:
 
