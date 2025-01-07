@@ -4,7 +4,7 @@
 
 This project implements a population-based variant of the Hill Climbing algorithm to solve the OneMax optimisation problem. It includes comprehensive performance analysis and visualisation of the algorithm's behaviour across different problem sizes and population parameters.
 
-### Problem Statement & Objectives
+### Problem Statement
 
 The OneMax problem is a useful baseline to test the performance of algorithms in the AI field of Search and Optimisation. In practice, by finding a solution with ones only, e.g. "1111111111" for a 10 bit problem, we know that an algorithm has found an optimal solution. While simple in concept, it provides valuable insights into algorithm performance and scalability.
 
