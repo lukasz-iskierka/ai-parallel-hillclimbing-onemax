@@ -2,11 +2,11 @@
 
 ### Project Description
 
-This project implements a population-based variant of the Hill Climbing algorithm to solve the OneMax optimisation problem. It includes comprehensive performance analysis and visualisation of the algorithm's behavior across different problem sizes and population parameters.
+This project implements a population-based variant of the Hill Climbing algorithm to solve the OneMax optimisation problem. It includes comprehensive performance analysis and visualisation of the algorithm's behaviour across different problem sizes and population parameters.
 
 ### Problem Statement & Objectives
 
-The OneMax problem is a benchmark in optimisation, requiring an algorithm to find a bitstring containing only ones (e.g., "111111"). While simple in concept, it provides valuable insights into algorithm performance and scalability.
+The OneMax problem is a useful baseline to test the performance of algorithms in the AI field of Search and Optimisation. In practice, by finding a solution with ones only, e.g. "1111111111" for a 10 bit problem, we know that an algorithm has found an optimal solution. While simple in concept, it provides valuable insights into algorithm performance and scalability.
 
 ### Objectives:
 
@@ -23,6 +23,7 @@ The algorithm's implementation uses:
 * Bitflip mutation with configurable probability
 * Fitness evaluation based on number of ones in bitstring
 * Performance tracking across generations
+* Processing speed data
 * Statistical analysis over multiple runs
 
 ### Results & Key Findings
@@ -31,7 +32,7 @@ The algorithm's implementation uses:
 * Gradual performance degradation observed beyond 40-bit strings
 * Limited impact of population size on solution quality
 * Average fitness score of ~90% for 100-bit problems
-* Increasing convergence time for larger problem sizes
+* Increasing convergence time for larger problem sizes suggesting scalibility issues
 
 ### Installation
 
@@ -83,9 +84,7 @@ avg_fitness_scores, avg_convergence = test_parallel_hill_climber(
 * Genetic algorithms
 * Simulated annealing
 
-3. Optimise performance for larger problem sizes
-4. Add parallelisation for performance testing
-5. Implement more sophisticated/alternative mutation operators
+3. Implement more sophisticated/alternative mutation operators
 
 ### Contributing
 
