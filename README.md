@@ -4,6 +4,8 @@
 
 This project implements a population-based variant of the Hill Climbing algorithm to solve the OneMax optimisation problem. It includes comprehensive performance analysis and visualisation of the algorithm's behaviour across different problem sizes and population parameters.
 
+It also includes a work-in-progress alternative version of the algorithm employing adaptive mutation rate. Initial testing has been performed, and it will be continued in subsequent releases. 
+
 ### Problem Statement & Objectives
 
 The OneMax problem is a useful baseline to test the performance of algorithms in the AI field of Search and Optimisation. In practice, by finding a solution with ones only, e.g. "1111111111" for a 10 bit problem, we know that an algorithm has found an optimal solution. While simple in concept, it provides valuable insights into algorithm performance and scalability.
@@ -77,7 +79,7 @@ avg_fitness_scores, avg_convergence = test_parallel_hill_climber(
 1. Implement adaptive mutation rates based on:
 
 * Population diversity
-* Adaptive mutation
+* Adaptive mutation (in progress)
 
 2. Explore hybrid approaches combining hill climbing with:
 
