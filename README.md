@@ -4,8 +4,6 @@
 
 This project implements a population-based variant of the Hill Climbing algorithm to solve the OneMax optimisation problem. It includes comprehensive performance analysis and visualisation of the algorithm's behaviour across different problem sizes and population parameters.
 
-It also includes a work-in-progress alternative version of the algorithm employing adaptive mutation rate. Initial testing has been performed, and it will be continued in subsequent releases. 
-
 ### Problem Statement
 
 The OneMax problem is a useful baseline to test the performance of algorithms in the AI field of Search and Optimisation. In practice, by finding a solution with ones only, e.g. "1111111111" for a 10 bit problem, we know that an algorithm has found an optimal solution. While simple in concept, it provides valuable insights into algorithm performance and scalability.
@@ -13,6 +11,7 @@ The OneMax problem is a useful baseline to test the performance of algorithms in
 ### Objectives:
 
 * Implement a parallel hill climbing algorithm to solve OneMax
+* Develp and test alternative mutation mechanism in the algorithm
 * Analyze algorithm performance across different bitstring lengths (10-100 bits)
 * Investigate the impact of population size on solution quality
 * Evaluate convergence patterns and computational efficiency
@@ -30,11 +29,11 @@ The algorithm's implementation uses:
 
 ### Results & Key Findings
 
-* Optimal performance for small problem sizes (10-40 bits)
-* Gradual performance degradation observed beyond 40-bit strings
+* Optimal performance for small problem sizes (10-40 bits) in 100 generations
+* Gradual performance degradation observed beyond 50-bit strings
 * Limited impact of population size on solution quality
-* Average fitness score of ~90% for 100-bit problems
-* Increasing convergence time for larger problem sizes suggesting scalibility issues
+* Average fitness score of ~90% for 100-bit problems (100 generations)
+* Increasing number of genarations and convergence time required for larger problem sizes suggesting scalibility issues
 
 ### Installation
 
